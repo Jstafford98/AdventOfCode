@@ -1,6 +1,5 @@
 # Solutions to AdventOfCode Problems
-## Current Years
-### [2024](/2024/)
+## [2024](/2024/)
 - [Day One](/2024/day_one/solution.py)
 - [Day Two](/2024/day_two/solution.py)
 - [Day Three](/2024/day_three/solution.py)
