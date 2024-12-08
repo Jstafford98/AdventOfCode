@@ -15,17 +15,19 @@ if __name__ == '__main__' :
 
     with open("2024/day_seven/input.txt") as buff:
         data = buff.readlines()
-    #pt1 : 932137732557 - correct
-    #pt2 : 661823605105500 - correct
+    #pt1 :     932_137_732_557 - correct
+    #pt2 : 661_823_605_105_500 - correct
 
     total = 0
+    invalid_lines : list[tuple[int, list[int]]] = []
+    
     for line in data:
         result, *values = map(int, re.findall(r"(\d+)", line))
         for combo in product((mul, add), repeat=len(values) - 1):
             if evaluate(values, combo) == result:
                 total += result
                 break
-    print(total)
+    print(f'{total:_}')
 
     total = 0
     for line in data:
@@ -34,4 +36,4 @@ if __name__ == '__main__' :
             if evaluate(values, combo) == result:
                 total += result
                 break
-    print(total)
+    print(f'{total:_}')
