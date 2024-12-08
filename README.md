@@ -8,3 +8,4 @@
 - [Day Six](/2024/day_six/solution.py)
 - [Day Seven](/2024/day_seven/solution.py)
 - [Day Eight](/2024/day_eight/solution.py)
+- [Day Nine](/2024/day_nine/solution.py)
