@@ -9,6 +9,7 @@ def generate_antinodes(
     x,y = p2[0] - p1[0], p2[1] - p1[1]
     return (p1[0] - x, p1[1] - y), (p2[0] + x, p2[1] + y)
 
+
 if __name__ == '__main__' :
     
     #pt 1: 321 - too high, 318 - correct
